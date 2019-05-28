@@ -10,7 +10,11 @@ def initialize(sender, receiver, amount)
 end
 
 def valid?
-  if sen
+  if @sender.valid && @receiver.valid 
+    true 
+  else
+    false 
+  end
 end
  
  
