@@ -15,6 +15,12 @@ def valid?
   else
     false 
   end
+  
+def execute_transaction
+end
+
+
+
 end
  
  
