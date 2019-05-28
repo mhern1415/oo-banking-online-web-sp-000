@@ -12,7 +12,8 @@ def deposit
 end
 
 def display_balance
-  @balance
+  @balance = balance 
+  puts "Your balance is #{balance}."
 end
 
 end
