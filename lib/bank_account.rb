@@ -8,7 +8,6 @@ def initialize(account_name)
   @status = "open"
 end 
 
-
 def deposit(money)
   @balance += money
 end
@@ -18,6 +17,6 @@ def display_balance
   return "Your balance is $#{balance}."
 end
 
-
+def  
 
 end
