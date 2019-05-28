@@ -8,4 +8,11 @@ def initialize(account_name)
   @status = "open"
 end 
 
+def deposit
+end
+
+def display_balance
+  @balance
+end
+
 end
